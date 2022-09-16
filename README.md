@@ -24,5 +24,5 @@
 
 ## Discord Server
 
-[![Join us on Discord](https://invidget.switchblade.xyz/Pu4b57qA9z?theme=light)(https://discord.gg/Pu4b57qA9z)
+[![Join us on Discord](https://invidget.switchblade.xyz/Pu4b57qA9z?theme=light)
 
