@@ -1,0 +1,7 @@
+{
+    "name": "GoogleRedirect",
+    "description": "GoogleRedirect with bare server",
+    "repository": "https://github.com/NRZT555/GoogleRedirect",
+    "logo": "https://github.com/NRZT555/GoogleRedirect/blob/main/static/googleredirect.png?raw=true",
+    "keywords": ["titaniumnetwork", "ultraviolet"]
+}
