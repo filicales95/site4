@@ -19,7 +19,7 @@
          <br>
 <a href="https://github.com/NRZT555/GoogleRedirect/wiki/heroku"><img height="30px" src="https://www.herokucdn.com/deploy/button.svg"><img></a>
 <a href="https://github.com/NRZT555/GoogleRedirect/wiki/replit"><img height="30px" src="ttps://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"><img></a>
-<a href="https://github.com/NRZT555/GoogleRedirect/wiki/railway"><img height="30px" src="ttps://railway.app/button.svg"><img></a>
+<a href="https://github.com/NRZT555/GoogleRedirect/wiki/railway"><img height="30px" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg"><img></a>
 </div>
 
 ## Games 
