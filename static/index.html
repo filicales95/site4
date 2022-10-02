@@ -1,96 +1,54 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="description" content="GoogleRedirect proxy project version 2.0.4"/>
+
+  <meta property="og:image" content="/googleredirect.png">
+
+   <link rel="icon" href="./googleredirect.png">
+
+	<title>GoogleRedirect Games</title>
 <html>
-<head>
-    <script src="./uv/uv.bundle.js"></script>
-    <script src="./uv/uv.config.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
-        body {
-            background: #111;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0px;
-            align-items: center;
-        }
-        .msg {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        p {
-            font-family: Roboto;
-        }
-        .info {
-            color: #FFF;
-            max-width: 600px;
-            text-align: center;
-            margin: 35px 0px 0px 0px;
-        }
-        .lds-dual-ring {
-        display: inline-block;
-        width: 160px;
-        height: 160px;
-        }
-        .lds-dual-ring:after {
-        content: " ";
-        display: block;
-        width: 128px;
-        height: 128px;
-        margin: 16px;
-        border-radius: 50%;
-        border: 12px solid #fff;
-        border-color: #fff transparent #fff transparent;
-        animation: lds-dual-ring 1.2s linear infinite;
-        }
-        @keyframes lds-dual-ring {
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(360deg);
-        }
-        }
-    </style>
-</head> 
-<body>
-
-    <div class="msg">
-        <div class="lds-dual-ring"></div>
-        <p class="info">
-            
-        </p>
-    </div>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./uv.sw-handler.js', {
-                scope: '/'
-            }).then(() => {
-
-                let url = atob(
-                    decodeURIComponent(window.location.hash.slice(1))
-                );
-
-                if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
-                else if (!(url.startsWith('https://') || url.startsWith('http://'))) {
-                    url = 'http://' + url;   
-                };
-                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(
-                    url
-                );
-            });
-        } else {
-            document.querySelector('.lds-dual-ring').remove();
-            document.querySelector('.info').textContent = 'Your browser appears to be in private browsing mode or is not compatabile. Try swapping or updating your browser.'
-        };
-
-        function isUrl(val = ''){
-            if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
-            return false;
-        };
-    </script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>GoogleRedirect Games</title>
+    <link href="style-web.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="best">
+    <p class="text">GoogleRedirect Games</p>
+    <center>ev.io: <a href = "loader.html?url=ev.io" target="_blank">link</a></center>
+     <center>paper.io: <a href = "loader.html?url=paper-io.com" target="_blank">link</a></center>
+     <center>twitch.tv: <a href = "loader.html?url=twitch.tv" target="_blank">link</a></center>
+     <center>tiktok: <a href = "loader.html?url=tiktok.com" target="_blank">link</a></center>
+     <center>hextris: <a href = "loader.html?url=hextris.tk" target="_blank">link</a></center>
+     <center>youtube: <a href = "loader.html?url=youtube.com" target="_blank">link</a></center>
+     <center>reddit: <a href = "loader.html?url=reddit.com" target="_blank">link</a></center>
+     <center>discord: <a href = "loader.html?url=discord.com/app" target="_blank">link</a></center>
+     <center>brave search: <a href = "loader.html?url=search.brave.com" target="_blank">link</a></center>
+     <center>bing: <a href = "loader.html?url=bing.com" target="_blank">link</a></center>
+     <center>duckduckgo: <a href = "loader.html?url=duckduckgo.com" target="_blank">link</a></center>
+     <center>geforce: <a href = "loader.html?url=play.geforcenow.com/mall/" target="_blank">link</a></center>
+     <center>startpage: <a href = "loader.html?url=startpage.com" target="_blank">link</a></center>
+     <center>1v1.lol: <a href = "loader.html?url=1v1.lol" target="_blank">link</a></center>
+     <center>justfall.lol: <a href = "loader.html?url=justfall.lol" target="_blank">link</a></center>
+     <center>cookie clicker: <a href = "loader.html?url=incog.dev/source/cookie/" target="_blank">link</a></center>
+    <center>2048: <a href = "loader.html?url=2048.io" target="_blank">link</a></center>
+    <center>vex 3: <a href = "loader.html?url=incog.dev/source/vex3/" target="_blank">link</a></center>
+    <center>vex 4: <a href = "loader.html?url=incog.dev/source/vex4/" target="_blank">link</a></center>
+    <center>vex 5: <a href = "loader.html?url=incog.dev/source/vex5/" target="_blank">link</a></center>
+    <center>vex 6: <a href = "loader.html?url=nrzt555.github.io/Vex6/" target="_blank">link</a></center>
+    <center>fortnite: <a href = "loader.html?url=www.xbox.com/en-US/play/games/fortnite/BT5P2X999VH2" target="_blank">link</a></center>
+    <center>yahoo search: <a href = "loader.html?url=search.yahoo.com/" target="_blank">link</a></center>
+    <center>diep.io: <a href = "loader.html?url=diep.io/" target="_blank">link</a></center>
+     <center>google unblocked: <a href = "loader.html?url=google.com/" target="_blank">link</a></center>
+     <h1><center>Want to request more games? Join our <a href = "https://discord.gg/k7AMxeuwW5" target="_blank">discord server</a></center></h1>
+    <footer>
+  </div>
+</div>
+</footer>
+    <script src="script.js"></script>
+  </body>
 </html>
