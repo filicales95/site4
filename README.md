@@ -27,5 +27,5 @@ to find games look at this [wiki page](https://github.com/NRZT555/GoogleRedirect
 
 ## Discord Server
 
-[![Join us on Discord](https://invidget.switchblade.xyz/Pu4b57qA9z?theme=light)
+![Join us on Discord](https://invidget.switchblade.xyz/k7AMxeuwW5?theme=light)
 
