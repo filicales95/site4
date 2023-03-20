@@ -2,30 +2,4 @@
          
 <img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/NRZT555/GoogleRedirect/main/static/googleredirect.png">
 
-<h1>GoogleRedirect</h1>
-
-<h3>Search the web using google</h3>
- 
-<a href="" alt="Made with NodeJS"><img src="https://img.shields.io/badge/Made%20with-Node.JS-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"></a> 
-<a href="https://github.com/NRZT555/GoogleRedirect/issues/" alt="GitHub issues"><img src="https://img.shields.io/github/issues/NRZT555/GoogleRedirect?style=for-the-badge"></a>
-<a href="https://github.com/NRZT555/GoogleRedirect/graphs/contributors/" alt=""><img src="https://img.shields.io/github/contributors/NRZT555/GoogleRedirect?style=for-the-badge"></a>
-
-</div>
-
-<div align="center">
-         <h2>Get Started</h2>
-         <a>Click any buttons below to deploy GoogleRedirect</a>
-         <br>
-         <br>
-<a href="https://github.com/NRZT555/GoogleRedirect/wiki/heroku"><img height="30px" src="https://www.herokucdn.com/deploy/button.svg"><img></a>
-<a href="https://github.com/NRZT555/GoogleRedirect/wiki/replit"><img height="30px" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"><img></a>
-<a href="https://github.com/NRZT555/GoogleRedirect/wiki/railway"><img height="30px" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg"><img></a>
-</div>
-
-## Games 
-to find games look at this [wiki page](https://github.com/NRZT555/GoogleRedirect/wiki/games)
-
-## Discord Server
-
-![Join us on Discord](https://invidget.switchblade.xyz/k7AMxeuwW5?theme=light)
-
+<h1>Google Unchained</h1>
